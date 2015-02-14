@@ -4,7 +4,7 @@ layout: default
 published: true
 ---
 
-# Otsikko!
+# Otsikko
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, dolore fuga, harum debitis nisi necessitatibus dignissimos quasi doloribus nemo maxime suscipit dolorum, ipsa saepe accusamus quos non consequuntur porro, molestias.
 
