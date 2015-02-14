@@ -2,4 +2,14 @@
 
 <a href="{{ site.url }}" class="logo-readium"><span class="logo" style="background-image: url({{ site.logo }})"></span></a>
 
+{% if page.show-header-image %}
+
+<div class="header-image">
+    <div class="header-image-image" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
+        Teaser Image
+    </div>
+</div>
+
+{% endif %}
+
 <!-- header end -->
