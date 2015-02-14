@@ -58,7 +58,7 @@ prose:
     - /css
     - .gitignore
     - CNAME
-    - LICENSE
+    - LICENCE
     - README.md
     - _config.yml
     - neppari.sublime-project
