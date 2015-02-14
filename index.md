@@ -3,22 +3,3 @@ layout: default
 show-header-image: true
 ---
 
-<header class="blog-header">
-    {% if site.logo %}
-      <a class="blog-logo" href="{{site.url}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
-    {% endif %}
-    <h1 class="blog-title">{{ site.title }}</h1>
-    <h2 class="blog-description">{{ site.description }}</h2>
-    <div class="custom-links">
-      {% for social in site.social %}
-        {% if social.url %}
-            <a class="icon-{{ social.icon }}" href="{{ social.url }}">
-              <i class="fa fa-{{ social.icon }}"></i>
-            </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
-        {% endif %}
-      {% endfor %}
-      <a href="/about/">About</a>
-    </div>
-</header>
-
