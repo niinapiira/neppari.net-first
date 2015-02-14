@@ -48,3 +48,17 @@ social:
 #    share_url:
 #    share_title:
 #    share_link:
+
+prose:
+  ignore:
+    - /_includes
+    - /_layouts
+    - /_sass
+    - /assets
+    - /css
+    - .gitignore
+    - CNAME
+    - LICENSE
+    - README.md
+    - _config.yml
+    - neppari.sublime-project
